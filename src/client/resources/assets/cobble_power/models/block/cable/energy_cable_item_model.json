@@ -1,0 +1,53 @@
+{
+  "render_type": "cutout",
+  "ambientocclusion": false,
+  "textures": {
+    "particle": "cobble_power:block/cable/energy_cable",
+    "cable": "cobble_power:block/cable/energy_cable"
+  },
+  "elements": [
+    {
+      "__comment": "Central core",
+      "from": [6, 6, 6],
+      "to": [10, 10, 10],
+      "shade": true,
+      "faces": {
+        "north": {"uv": [1, 1, 5, 5], "texture": "#cable"},
+        "east":  {"uv": [1, 1, 5, 5], "texture": "#cable"},
+        "south": {"uv": [1, 1, 5, 5], "texture": "#cable"},
+        "west":  {"uv": [1, 1, 5, 5], "texture": "#cable"},
+        "up":    {"uv": [1, 1, 5, 5], "texture": "#cable"},
+        "down":  {"uv": [1, 1, 5, 5], "texture": "#cable"}
+      }
+    },
+    {
+      "__comment": "North side",
+      "from": [6, 6, 0],
+      "to": [10, 10, 6],
+      "shade": true,
+      "faces": {
+        "north": {"uv": [1, 1, 5, 5], "texture": "#cable"},
+        "east":  {"uv": [0, 7, 6, 11], "texture": "#cable"},
+        "south": {"uv": [1, 1, 5, 5], "texture": "#cable"},
+        "west":  {"uv": [0, 7, 6, 11], "texture": "#cable"},
+        "up":    {"uv": [0, 7, 6, 11], "texture": "#cable", "rotation": 90},
+        "down":  {"uv": [0, 7, 6, 11], "texture": "#cable", "rotation": 90}
+      }
+    },
+    {
+      "__comment": "South side",
+      "from": [6, 6, 10],
+      "to": [10, 10, 16],
+      "shade": true,
+      "faces": {
+        "north": {"uv": [1, 1, 5, 5], "texture": "#cable"},
+        "east":  {"uv": [0, 7, 6, 11], "texture": "#cable"},
+        "south": {"uv": [1, 1, 5, 5], "texture": "#cable"},
+        "west":  {"uv": [0, 7, 6, 11], "texture": "#cable"},
+        "up":    {"uv": [0, 7, 6, 11], "texture": "#cable", "rotation": 90},
+        "down":  {"uv": [0, 7, 6, 11], "texture": "#cable", "rotation": 90}
+      }
+    }
+
+  ]
+}

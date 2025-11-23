@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "cobble_power:block/energizer/energizer_bottom",
+    "up": "cobble_power:block/energizer/solar_panel",
+    "north": "cobble_power:block/energizer/energizer_front",
+    "south": "cobble_power:block/energizer/energizer_back",
+    "west": "cobble_power:block/energizer/energizer_left",
+    "east": "cobble_power:block/energizer/energizer_right",
+    "particle": "cobble_power:block/energizer/energizer_right"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "cobble_power:block/template/template_cable_core",
+  "textures": {
+    "cable": "cobble_power:block/cable/energy_cable"
+  }
+}

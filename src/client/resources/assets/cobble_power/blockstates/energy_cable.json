@@ -1,0 +1,56 @@
+{
+  "multipart": [
+    {
+      "apply": { "model": "cobble_power:block/cable/energy_cable_core" }
+    },
+    {
+      "when": { "north": true },
+      "apply": { "model": "cobble_power:block/cable/energy_cable_side" }
+    },
+    {
+      "when": { "east": true },
+      "apply": { "model": "cobble_power:block/cable/energy_cable_side", "y": 90 }
+    },
+    {
+      "when": { "south": true },
+      "apply": { "model": "cobble_power:block/cable/energy_cable_side", "y": 180 }
+    },
+    {
+      "when": { "west": true },
+      "apply": { "model": "cobble_power:block/cable/energy_cable_side", "y": 270 }
+    },
+    {
+      "when": { "up": true },
+      "apply": { "model": "cobble_power:block/cable/energy_cable_side", "x": 270}
+    },
+    {
+      "when": { "down": true },
+      "apply": { "model": "cobble_power:block/cable/energy_cable_side", "x": 90 }
+    },
+    {
+      "when": { "north_outlet": true },
+      "apply": { "model": "cobble_power:block/cable/energy_cable_side_outlet" }
+    },
+
+    {
+      "when": { "east_outlet": true },
+      "apply": { "model": "cobble_power:block/cable/energy_cable_side_outlet", "y": 90 }
+    },
+    {
+      "when": { "south_outlet": true },
+      "apply": { "model": "cobble_power:block/cable/energy_cable_side_outlet", "y": 180 }
+    },
+    {
+      "when": { "west_outlet": true },
+      "apply": { "model": "cobble_power:block/cable/energy_cable_side_outlet", "y": 270 }
+    },
+    {
+      "when": { "up_outlet": true },
+      "apply": { "model": "cobble_power:block/cable/energy_cable_side_outlet", "x": 270}
+    },
+    {
+      "when": { "down_outlet": true },
+      "apply": { "model": "cobble_power:block/cable/energy_cable_side_outlet", "x": 90 }
+    }
+  ]
+}

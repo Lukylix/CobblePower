@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "cobble_power:energizer",
+    "cobble_power:energy_cable"
+  ]
+}

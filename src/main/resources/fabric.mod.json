@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "cobble_power",
+  "version": "${version}",
+  "name": "CobblePower",
+  "description": "Baisc Beautiful Cobblemon power generator",
+  "authors": [
+    "Lukylix",
+    "Wirn"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+  "license": "MIT",
+  "icon": "assets/cobble_power/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.lukylix.cobble_power.CobblePower"
+    ],
+    "client": [
+      "com.lukylix.cobble_power.CobblePowerClient"
+    ]
+  },
+  "mixins": [
+  ],
+  "depends": {
+    "fabricloader": ">=0.17.3",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
